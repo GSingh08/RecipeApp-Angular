@@ -1,0 +1,30 @@
+.margin {
+    margin-bottom: 8px;
+}
+
+.margin-top{
+    margin-top: 15px;
+}
+
+
+    @media only screen and (max-width: 3000px) {
+
+        .btn-positive-save {
+            left: 90px;
+        }
+
+        .btn-positive-ing {
+            right: 30px;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+
+        .btn-positive-save {
+            left: 40px;
+        }
+
+        .btn-positive-ing {
+            right: 40px;
+        }
+    }
